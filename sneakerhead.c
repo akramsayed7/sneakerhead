@@ -513,7 +513,11 @@ void CasPUmaType(char* type)
         default:
             printf("Invalid option. Please try again.\n");
             return;
+
     }
+     orders[orderCount].amount = amount;
+    orderCount++;
+    SelectSize();
 }
 void Casnewbtype()
     {
